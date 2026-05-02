@@ -20,7 +20,7 @@ export default defineConfig({
   reporter: "./customReporter.ts",
 
   use: {
-    headless: false,
+    headless: true,
     viewport: { width: 1280, height: 720 },
     actionTimeout: 150000,
     video: "off",
